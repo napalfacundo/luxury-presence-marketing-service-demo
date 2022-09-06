@@ -14,6 +14,10 @@
   color: #f2f2f2;
 }
 
+.hero .hero-text {
+  color: #f2f2f2;
+}
+
 /* Fonts */
 :root {
   --font-default: 'Assistant', sans-serif;
@@ -323,7 +327,7 @@ section {
 .header .btn-book-a-table:hover,
 .header .btn-book-a-table:focus:hover {
   color: #fff;
-  background: rgba(206, 18, 18, 0.8);
+  box-shadow: 0 8px 28px var(--color-primary);
 }
 
 section {
@@ -1550,6 +1554,8 @@ section {
   position: relative;
   min-height: 60vh;
   padding: 160px 0 60px 0;
+  background-image: url('/assets/img/hero-img.jpg');
+  height: 100vh;
 }
 
 .hero h2 {
@@ -1584,8 +1590,8 @@ section {
 }
 
 .hero .btn-book-a-table:hover {
-  background: rgba(206, 18, 18, 0.8);
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.45);
+  background: var(--color-default);
+  box-shadow: 0 8px 28px var(--color-primary);
 }
 
 .hero .btn-watch-video {
