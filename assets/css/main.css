@@ -1,15 +1,6 @@
-/**
-* Template Name: Yummy - v1.1.0
-* Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /* Custom */
-
 .navbar a, .navbar a:focus {
   color: #f2f2f2;
-
 }
 
 .hero .hero-text {
@@ -59,7 +50,6 @@
 :root {
   --font-default: 'Assistant', sans-serif;
   --font-primary: 'Nanum Myeongjo', serif;
-  /* --font-secondary: "Inter", sans-serif; */
 }
 
 /* Colors */
@@ -501,6 +491,12 @@ section {
 --------------------------------------------------------------*/
 .marketing .marketing-img {
   min-height: 500px;
+
+}
+
+.marketing .marketing-img-ads {
+  background-image: url(/assets/img/property-swimming-pool.jpg); 
+  background-size: cover;
 }
 
 .marketing h3 {
@@ -782,6 +778,7 @@ section {
   min-height: 500px;
   background-size: cover;
   background-position: center;
+  background-image: url(/assets/img/GATIEN-nobg.png); background-position: unset
 }
 
 .make-a-request .reservation-form-bg {
@@ -1246,4 +1243,17 @@ section {
 
 .footer .credits a {
   color: #fff;
+}
+
+.container-seo{
+  background-color: rgba(0, 0, 0, .3); 
+  padding: 96px
+}
+
+.marketing-img-seo {
+  background-image: url(/assets/img/seo.jpg); background-size: cover;
+}
+
+.video-marketing {
+  max-width: 100%;
 }
